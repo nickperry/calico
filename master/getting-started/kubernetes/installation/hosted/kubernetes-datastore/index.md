@@ -92,7 +92,7 @@ kubeadm init --pod-network-cidr=192.168.0.0/16
 
 #### Configuring your BGP topology (optional)
 
-Some users running at high scale or on-premise may want to update Calico's BGP peering configuration using `calicoctl`.  For example,
+Some users running at high scale or on-premises may want to update Calico's BGP peering configuration using `calicoctl`.  For example,
 you may wish to turn off the full node-to-node mesh and configure a pair of redundant route reflectors.
 
 See the [Configuring BGP Peers guide]({{site.baseurl}}/{{page.version}}/usage/configuration/bgp) for details on using `calicoctl`
